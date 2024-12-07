@@ -45,7 +45,7 @@ def check_loop(guard):
             
 
 res = 0
-with open('inputs/input_6.txt', 'r') as f:
+with open('inputs/input_.txt', 'r') as f:
     lines = f.readlines()
     grid = [line[:-1] for line in lines]
     num_r = len(lines)
